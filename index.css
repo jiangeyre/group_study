@@ -100,3 +100,25 @@ h2{
 
 
 
+.boy_cont{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+@media (max-width: 700px){
+	.boy_cont{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.boy_cont img{
+	width: 300px;
+}
+
+@media (max-width: 800px){
+	.boy_cont img{
+		width: 600px;
+	}
+}
